@@ -21,5 +21,5 @@ plot(x,y2);
 legend('sin','cos');
 hold off
 
-print('plot','-dpng')
-
+%print('plot','-dpng')
+print('-dpng', [pwd,'\images\plot.png'])

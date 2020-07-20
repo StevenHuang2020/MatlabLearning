@@ -1,7 +1,8 @@
 %%%matlab basic operation%%%
-%a = [1 2 3 4 5 6];
-%bar(a)
+a = [1 2 3 4 5 6];
+bar(a)
 %print('bar','-dpng'); %save to image file
+print('-dpng', [pwd,'\images\bar.png'])
 
 z = zeros(5,1);
 z = z + 10;

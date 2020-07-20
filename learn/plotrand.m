@@ -10,4 +10,6 @@ plot([0,n],[m,m])
 hold off
 
 title('Mean of Random Uniform Data')
-print('RandMean','-dpng')
+%print('-dpng','E:\matlab\learn\images\RandMean.png')
+print('-dpng', [pwd,'\images\RandMean.png'])
+
