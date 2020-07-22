@@ -6,3 +6,8 @@
 <img src="learn/images/3dPlot.png" width="320" height="240">
 <img src="learn/images/3dPlot2.png" width="320" height="240">
 <img src="learn/images/RandMean.png" width="320" height="240">
+
+<img src="test_images/lena.png" width="320" height="240">
+<img src="learn/images/lenaHistEq.png" width="320" height="240">
+<img src="test_images/CirclesExample.png" width="320" height="240">
+<img src="learn/images/CirclesExampleDectect.png" width="320" height="240">

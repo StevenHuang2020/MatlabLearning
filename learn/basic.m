@@ -1,5 +1,8 @@
 %%%matlab basic operation%%%
 a = [1 2 3 4 5 6];
+a(1) %1
+a(2) %2
+
 bar(a)
 %print('bar','-dpng'); %save to image file
 print('-dpng', [pwd,'\images\bar.png'])
@@ -70,4 +73,7 @@ max(L,M);%max=[2,4,3,6]
 disp('hello world!')
 
 
+%%%building tables%%%
+n = (0:9)';
+pows=[n n.^2 2.^n]
 
