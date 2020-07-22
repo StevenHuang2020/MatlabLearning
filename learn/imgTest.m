@@ -1,4 +1,6 @@
-I = imread([pwd,'\test_images\lena.png'])
+file = [pwd,'\test_images\lena.png']
+
+I = imread(file)
 whos I
 %imshow(I)
 
@@ -8,6 +10,7 @@ whos I
 %imshow(I1)
 figure
 imhist(I)
+saveas(gcf,[pwd,'\images\lenaHist.png'])
 
 I2 = histeq(I);
 figure
@@ -17,13 +20,13 @@ figure
 imhist(I2)
 
 imwrite(I2,[pwd,'\images\lenaHistEq.png'])
+imwrite(I,[pwd,'\images\lena.png'])
 
-file = [pwd,'\test_images\lena.png']
 imfinfo(file)
 
 imfinfo([pwd,'\images\lenaHistEq.png'])
 
 %addpath(pwd, '-end')
-Img = imgFun(file)
+%Img = imgFun(file)
 
 

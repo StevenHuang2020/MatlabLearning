@@ -7,6 +7,7 @@ file = [pwd, '\test_images\CirclesExample.png'];
 %[img,gray] = imgFun(file)
 img = imgFun(file)
 imshow(img)
+saveas(gcf,[pwd,'\images\CirclesExample.png'])
 
 d = imdistline;
 delete(d)

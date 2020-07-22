@@ -12,3 +12,4 @@
 <img src="learn/images/lenaHistEq.png" width="320" height="240">
 <img src="learn/images/CirclesExample.png" width="320" height="240">
 <img src="learn/images/CirclesExampleDectect.png" width="320" height="240">
+<img src="learn/images/riceDetect.png" width="320" height="240">
